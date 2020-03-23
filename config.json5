@@ -1,0 +1,11 @@
+{
+  /* 名词解释：
+  proxyApi：后台开发的api
+  fallbackProxyApi: mock服务器的api */
+  // 代理的api路径
+  proxyApiPath: '',
+  // 如果后台接口没开发好，回退的proxy api路径
+  fallbackProxyApiPath: '',
+  // express router 的前缀
+  proxyPrefix: 'use-proxy'
+}

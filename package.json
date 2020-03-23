@@ -1,0 +1,19 @@
+{
+  "name": "node-proxy-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "set PORT=3030&nodemon ./bin/www",
+    "heartbeat": "node utils/heartbeat/heartbeat.entry.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-http-proxy": "^1.6.0",
+    "http-errors": "~1.6.3",
+    "json5": "^2.1.1",
+    "morgan": "~1.9.1"
+  }
+}

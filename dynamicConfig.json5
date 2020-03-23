@@ -1,0 +1,14 @@
+{
+  /* 名词解释：
+  proxyApi：后台开发的api
+  fallbackProxyApi: mock服务器的api */
+  // cookie，需要登录下从浏览器里复制过来
+  proxyApiCookie: 'JSESSIONID=',
+  // 响应头里增加的内容，为了区分响应内容是后台api返回的还是mock api返回的
+  addResponseHeaders: {
+    apiPath: 'proxy-use-api-path',
+    apiFullPath: 'proxy-use-api-fullpath'
+  },
+  // 是否跳过代理的api
+  skipProxyApi: false
+}
